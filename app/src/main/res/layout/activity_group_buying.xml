@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="商品详情"
+        android:textColor="#fff"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.shichuang.choosegoodsproject.RxSquareLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@color/windowBackground">
+                    </com.shichuang.choosegoodsproject.RxSquareLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/sp_12">
+
+                        <TextView
+                            android:id="@+id/tv_goods_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:text="腾讯“守护者计划”连续两年获评“CCTV年度法治人物从任正非的干儿子到玻璃房子里的囚徒"
+                            android:textColor="@color/textColor"
+                            android:textSize="@dimen/text_size_15"/>
+
+                        <TextView
+                            android:id="@+id/tv_new_money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/tv_goods_name"
+                            android:layout_marginTop="@dimen/space_8"
+                            android:text="¥399.00"
+                            android:textColor="@color/goldenYellow"/>
+
+                        <TextView
+                            android:id="@+id/tv_old_money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/tv_goods_name"
+                            android:layout_marginLeft="@dimen/sp_12"
+                            android:layout_marginTop="@dimen/space_8"
+                            android:layout_toEndOf="@+id/tv_new_money"
+                            android:text="¥599.00"
+                            android:textSize="@dimen/text_size_13"/>
+
+                        <TextView
+                            android:id="@+id/tv_express_money"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/tv_new_money"
+                            android:layout_marginTop="@dimen/space_8"
+                            android:text="快递:¥0.00"
+                            android:textSize="@dimen/text_size_12"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:id="@+id/tv_leave_things"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignTop="@+id/tv_old_money"
+                            android:text="已抢357件"
+                            android:textSize="@dimen/text_size_12"/>
+
+                        <TextView
+                            android:id="@+id/tv_city"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:text="上海"
+                            android:textSize="@dimen/text_size_12"
+                            android:visibility="gone"/>
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="8dp"
+                        android:background="@color/windowBackground"/>
+
+                    <TextView
+                        android:id="@+id/tv_things_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/sp_12"
+                        android:text="产品信息"
+                        android:textColor="@color/textColor"
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_things_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/windowBackground"
+                        android:orientation="vertical"
+                        android:padding="@dimen/sp_12"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/sp_12">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="品牌"/>
+
+                            <TextView
+                                android:id="@+id/tv_type"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="真爱婚庆"
+                                android:textColor="@color/textColor"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space_4"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/sp_12">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="颜色"/>
+
+                            <TextView
+                                android:id="@+id/tv_color"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="真爱婚庆"
+                                android:textColor="@color/textColor"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space_4"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/sp_12">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="体积"/>
+
+                            <TextView
+                                android:id="@+id/tv_size"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="真爱婚庆"
+                                android:textColor="@color/textColor"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space_4"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/sp_12">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="重量"/>
+
+                            <TextView
+                                android:id="@+id/tv_weight"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:text="真爱婚庆"
+                                android:textColor="@color/textColor"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/space_16"
+                        android:gravity="center"
+                        android:text="下面应该是一个不可滚动的webView"/>
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sp_12"
+                android:background="@color/goldenYellow"
+                android:text="立即购买"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

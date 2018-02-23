@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/tv_type_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="8dp"
+          android:layout_marginRight="@dimen/sp_12"
+          android:background="@drawable/bg_btn_gray"
+          android:paddingBottom="4dp"
+          android:paddingLeft="8dp"
+          android:paddingRight="8dp"
+          android:paddingTop="4dp"
+          android:text="是是是"
+          android:textColor="@color/textColor"
+          android:textSize="@dimen/text_size_13"/>
+

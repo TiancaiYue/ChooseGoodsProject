@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23262D</color>
+    <color name="colorPrimaryDark">#23262D</color>
+    <color name="colorAccent">#23262D</color>
+    <color name="user_info_message_notice">#E35B5A</color>
+
+    <!--线条分割线-->
+    <color name="lineColor">#E0E0E0</color>
+    <!--背景颜色-->
+    <color name="windowBackground">#f2f2f2</color>
+
+    <!--字体颜色-->
+    <color name="textColor">#565656</color>
+    <color name="textColor1">#666666</color>
+    <color name="textColor2">#A5A3A5</color>
+
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swipeRefreshColor1">#ff00ddff</color>
+    <color name="swipeRefreshColor2">#ffffbb33</color>
+    <color name="swipeRefreshColor3">#ffff4444</color>
+    <color name="swipeRefreshColor4">#ffaa66cc</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="click">#33ffffff</color>
+    <!--金黄色-->
+    <color name="goldenYellow">#B99041</color>
+
+    <color name="color_f6">#f6f6f6</color>
+
+</resources>

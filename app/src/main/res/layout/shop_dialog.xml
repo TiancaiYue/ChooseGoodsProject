@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="409dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:paddingTop="@dimen/sp_12">
+
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="105dp"
+                android:text="¥ 35.00"
+                android:textColor="@color/goldenYellow"/>
+
+            <TextView
+                android:id="@+id/tv_leave_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tv_money"
+                android:layout_below="@+id/tv_money"
+                android:text="库存60件"
+                android:textColor="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/ll_close"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/sp_16"
+                    android:layout_height="@dimen/sp_16"
+                    android:src="@drawable/ic_delate"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_have_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tv_leave_number"
+                android:text="已选择 "/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4px"
+            android:layout_marginTop="@dimen/sp_12"
+            android:background="@color/windowBackground"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/sp_12"
+                android:layout_weight="1"
+                android:text="购买数量"
+                android:textColor="@color/colorPrimary"/>
+
+            <ImageView
+                android:id="@+id/iv_sub"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_plus"/>
+
+            <EditText
+                android:id="@+id/et_good_num"
+                android:layout_width="32dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:background="@null"
+                android:gravity="center"
+                android:text="1"
+                android:digits="0123456789"
+                android:textSize="@dimen/text_size_14"/>
+
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/sp_12"
+                android:src="@drawable/ic_add"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lineColor"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_sure"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@color/goldenYellow"
+            android:text="确定"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="340dp"
+        android:layout_marginLeft="12dp"
+        app:cardCornerRadius="8dp">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/windowBackground"/>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

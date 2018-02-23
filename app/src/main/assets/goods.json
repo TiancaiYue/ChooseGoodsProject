@@ -1,0 +1,94 @@
+{
+    "goods_id": 5,
+    "goods_name": "2017新款女装冬装宽松大码中长款棉衣外套女毛领棉袄加绒加厚大衣",
+    "market_price": 360.00,
+    "platform_price": 250.00,
+    "number": 100,
+    "pics": "/qjgy/upload/20180131/201801311441460287.jpg,/qjgy/upload/20180131/201801311442280200.jpg,/qjgy/upload/20180131/201801311442290852.jpg",
+    "bewrite": "该商品参与了公益宝贝计划，卖家承诺每笔成交将为免费午餐基金捐赠0.02元。该商品已累积捐赠1403笔。\r\n善款用途简介：免费午餐基金倡议每天捐赠4元为贫困学童提供热腾腾的免费午餐，使孩子们免于饥饿、健康成长，改变中国乡村儿童营养状况。为确保善款善用，志愿者协助...",
+    "weight": 13.00,
+    "volume": 3214.00,
+    "state": 2,
+    "url": "http://qjpark.china-mail.com.cn/qjgy/v1/single_page/single_page_shwo?type=2&id=5",
+    "specTile": [{
+      "values": [{
+        "id": "21",
+        "name": "S"
+      },
+        {
+          "id": "22",
+          "name": "M"
+        },
+        {
+          "id": "23",
+          "name": "L"
+        }],
+      "name": "尺码"
+    },
+      {
+        "values": [{
+          "id": "24",
+          "name": "图片色"
+        },
+          {
+            "id": "25",
+            "name": "焦糖色"
+          },
+          {
+            "id": "26",
+            "name": "黑色"
+          }],
+        "name": "颜色"
+      }],
+    "specList": [{
+      "id": 110,
+      "pic": "/qjgy/upload/20180205/201802051547490179.png",
+      "goods_id": 5,
+      "spec_ids": "4,5",
+      "spec_texts": "颜色,尺码",
+      "spec_value_ids": "21,24",
+      "spec_value_texts": "图片色,S",
+      "market_price": 32432.00,
+      "platform_price": 4343.00,
+      "number": 325,
+      "warn_number": 23,
+      "goods_no": "adsfafsd",
+      "bar_code": "asdff",
+      "add_time": "2018-02-05 15:48:19.000",
+      "is_delete": 0
+    },
+      {
+        "id": 111,
+        "pic": "/qjgy/upload/20180205/201802051547510960.png",
+        "goods_id": 5,
+        "spec_ids": "4,5",
+        "spec_texts": "颜色,尺码",
+        "spec_value_ids": "22,25",
+        "spec_value_texts": "焦糖色,M",
+        "market_price": 2342.00,
+        "platform_price": 2342.00,
+        "number": 235,
+        "warn_number": 23,
+        "goods_no": "asdfasdf",
+        "bar_code": "adsfasdf",
+        "add_time": "2018-02-05 15:48:19.000",
+        "is_delete": 0
+      },
+      {
+        "id": 112,
+        "pic": "/qjgy/upload/20180205/201802051547550863.png",
+        "goods_id": 5,
+        "spec_ids": "4,5",
+        "spec_texts": "颜色,尺码",
+        "spec_value_ids": "23,26",
+        "spec_value_texts": "黑色,L",
+        "market_price": 324234.00,
+        "platform_price": 322.00,
+        "number": 23,
+        "warn_number": 23,
+        "goods_no": "asdfsdaf",
+        "bar_code": "asdfasdf",
+        "add_time": "2018-02-05 15:48:19.000",
+        "is_delete": 0
+      }]
+  }
