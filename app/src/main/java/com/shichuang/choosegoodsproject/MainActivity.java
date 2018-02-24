@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
     //解析Json数据
     private void getData() {
         Gson gson = new Gson();
-        thingsDetails = gson.fromJson(jsonString, ThingsDetails.class);
+            thingsDetails = gson.fromJson(jsonString, ThingsDetails.class);
     }
 
     /**
